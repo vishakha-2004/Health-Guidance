@@ -1,6 +1,0 @@
-<resources>
-    <string name="app_name">healthguide</string>
-    <string name="username" />
-    <string name="password">\n</string>
-    <string name="register_for_new_user" />
-</resources>
