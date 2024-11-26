@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/line1"
+        android:text="text"
+        android:fontFamily="sans-serif-condensed-light"
+        android:textColor="@color/black"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/line2"
+        android:text="text"
+        android:textSize="14sp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:textColor="@color/black"/>
+
+ <LinearLayout
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:orientation="horizontal"
+     android:weightSum="1">
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.20"
+        android:id="@+id/line3a"
+        android:text="text"
+        android:textSize="12sp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="0.5"
+        android:layout_height="wrap_content"
+        android:id="@+id/line3b"
+        android:text="text"
+        android:textSize="12sp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.3"
+        android:id="@+id/line3c"
+        android:text="text"
+        android:textSize="12sp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:textColor="@color/black"/>
+
+ </LinearLayout>
+
+    <TextView
+        android:id="@+id/line4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif-condensed-light"
+        android:textSize="12sp"/>
+
+
+</LinearLayout>
